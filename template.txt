@@ -3,7 +3,7 @@ import datetime
 date = str(datetime.datetime.today())
 
 while True:
-    print("replace")
+    print("Generated on" + "replace")
     print(date)
     time.sleep(20)
 
