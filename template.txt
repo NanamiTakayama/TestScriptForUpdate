@@ -3,5 +3,7 @@ import datetime
 date = str(datetime.datetime.today())
 
 while True:
+    print("replace")
     print(date)
-    time.sleep(10)
+    time.sleep(20)
+
