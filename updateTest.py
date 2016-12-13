@@ -40,12 +40,12 @@ class Slack(object):
         self.__slacker.chat.post_message(channel_name, message)
 
 
-
+slack = Slack("xoxp-8287559173-9517193584-113147450805-baefd83f3c433756418e7f31be6e7783")
 
 
 while True:
     slack.post_message_to_channel("monitoring", "test")
-    print("Generated at" + "2016-12-13 16:29:21.363128")
+    print("Generated at" + "2016-12-13 16:37:07.380799")
     systate = str(commands.getoutput("ps aux | grep isaax"))
     print(systate)
     print(date)
