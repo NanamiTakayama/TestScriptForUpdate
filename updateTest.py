@@ -1,3 +1,6 @@
+#coding:utf-8
+
+print("App started")
 import time
 import datetime
 import commands
@@ -10,6 +13,6 @@ while True:
     netstate = str(commands.getoutput("ping 8.8.8.8"))
     print(netstate)
     print(systate)
-    print("Generated at" + "2016-12-13 15:45:07.768738")
+    print("Generated at" + "2016-12-13 15:50:28.606484")
     print(date)
     time.sleep(30)

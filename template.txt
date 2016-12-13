@@ -1,3 +1,6 @@
+#coding:utf-8
+
+print("App started")
 import time
 import datetime
 import commands
