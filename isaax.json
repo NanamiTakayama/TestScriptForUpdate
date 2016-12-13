@@ -7,7 +7,7 @@
   "license": "",
   "language":"python",
   "scripts": {
-     "start": "pip install -r requirements.txt && python -u updateTest.py"
+     "start": "pip install slacker && python -u updateTest.py"
     },
    "dependency": null
 }

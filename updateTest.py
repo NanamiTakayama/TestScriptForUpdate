@@ -9,10 +9,10 @@ from slacker import Slacker
 date = str(datetime.datetime.today())
 
 while True:
-    systate = str(commands.getoutput("ps aux | grep isaax"))
-    netstate = str(commands.getoutput("ping 8.8.8.8"))
-    print(netstate)
-    print(systate)
-    print("Generated at" + "2016-12-13 15:52:46.202403")
+    print("Generated at" + "2016-12-13 16:03:31.622823")
+    #systate = str(commands.getoutput("ps aux | grep isaax"))
+    #netstate = str(commands.getoutput("ping 8.8.8.8"))
+    #print(netstate)
+    #print(systate)
     print(date)
     time.sleep(30)
