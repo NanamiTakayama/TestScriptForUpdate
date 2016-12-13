@@ -13,6 +13,6 @@ while True:
     netstate = str(commands.getoutput("ping 8.8.8.8"))
     print(netstate)
     print(systate)
-    print("Generated at" + "2016-12-13 15:50:28.606484")
+    print("Generated at" + "2016-12-13 15:52:46.202403")
     print(date)
     time.sleep(30)
