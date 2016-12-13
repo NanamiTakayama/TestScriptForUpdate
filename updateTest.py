@@ -3,6 +3,6 @@ import datetime
 date = str(datetime.datetime.today())
 
 while True:
-    print("Generated at" + "2016-12-13 11:31:15.570015")
+    print("Generated at" + "2016-12-13 11:36:48.686899")
     print(date)
     time.sleep(20)
