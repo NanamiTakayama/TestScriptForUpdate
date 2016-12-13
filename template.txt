@@ -10,10 +10,8 @@ date = str(datetime.datetime.today())
 
 while True:
     print("Generated at" + "replace")
-    #systate = str(commands.getoutput("ps aux | grep isaax"))
-    #netstate = str(commands.getoutput("ping 8.8.8.8"))
-    #print(netstate)
-    #print(systate)
+    systate = str(commands.getoutput("ps aux | grep isaax"))
+    print(systate)
     print(date)
     time.sleep(30)
 
