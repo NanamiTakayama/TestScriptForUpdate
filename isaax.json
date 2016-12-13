@@ -1,0 +1,13 @@
+{
+  "name": "python-app",
+  "version": "",
+  "description": "python - raspberry-pi",
+  "main": "updateTest.py",
+  "author": "",
+  "license": "",
+  "language":"python",
+  "scripts": {
+     "start": "pip install -r requirements.txt && python -u app.py"
+    },
+   "dependency": null
+}
