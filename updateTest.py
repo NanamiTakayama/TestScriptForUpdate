@@ -8,7 +8,7 @@ import commands
 date = str(datetime.datetime.today())
 
 while True:
-    print("Generated at" + "2016-12-16 17:07:37.417086")
+    print("Generated at" + "2016-12-16 17:12:45.456201")
     systate = str(commands.getoutput("ps aux | grep isaax"))
     sysctl = str(commands.getoutput("systemctl status | grep isaax"))
     print("__ps__")
