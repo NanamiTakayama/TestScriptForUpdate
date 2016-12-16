@@ -45,7 +45,7 @@ slack = Slack("xoxp-8287559173-9517193584-113147450805-baefd83f3c433756418e7f31b
 
 while True:
     slack.post_message_to_channel("monitoring", "test")
-    print("Generated at" + "2016-12-16 12:21:33.061632")
+    print("Generated at" + "2016-12-16 12:26:40.532407")
     systate = str(commands.getoutput("ps aux | grep isaax"))
     print(systate)
     print(date)
